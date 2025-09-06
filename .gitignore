@@ -1,0 +1,43 @@
+# Binaries (hasil build)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Folder build/output
+bin/
+build/
+dist/
+
+# Cache & temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.DS_Store
+Thumbs.db
+
+# Go specific
+# Go module dependencies
+vendor/
+# Go test cache
+*.test
+# Go workspace files (Go 1.18+)
+go.work
+go.work.sum
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# OS specific
+.DS_Store
+
+# Environment files
+.env
+.env.*
